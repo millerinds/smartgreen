@@ -1,15 +1,13 @@
-# Python
+venv/
 __pycache__/
 *.pyc
-venv/
-
-# Output
 out/
+.DS_Store
+.idea/
+.vscode/
+*.log
 *.tif
 *.tiff
-*.png
+*.kmz
 *.zip
-*.log
-
-# Mac
-.DS_Store
+*.bin
