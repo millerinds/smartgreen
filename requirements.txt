@@ -1,9 +1,28 @@
+# SMARTGREEN - Dependências Python
+# Instalação: pip install -r requirements.txt
+
+# Google Earth Engine
 earthengine-api>=0.1.384
+
+# Processamento Geoespacial
 geopandas>=0.14.0
 rasterio>=1.3.9
+shapely>=2.0.2
+pyproj>=3.6.1
+fiona>=1.9.5
+
+# Processamento de Dados
 numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualização e Mapas
 folium>=0.15.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Utilitários
 requests>=2.31.0
 tqdm>=4.66.0
-matplotlib>=3.8.0
-shapely>=2.0.0
+
+# Transformações Geométricas
+affine>=2.4.0
