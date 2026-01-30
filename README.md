@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 ## Configuração rápida
-No arquivo `smartgreen_talhoes.py`, ajuste se necessário:
+No arquivo `safrasmart.py`, ajuste se necessário:
 - `PROJECT_ID`: ID do projeto no Google Cloud/Earth Engine
 - `SHAPEFILE_PATH`: caminho do shapefile
 - `TALHAO_ID_FIELD` e `TALHAO_NOME_FIELD`: campos do shapefile
@@ -31,7 +31,7 @@ No arquivo `smartgreen_talhoes.py`, ajuste se necessário:
 ## Como usar (pipeline principal)
 ```bash
 source venv/bin/activate
-python smartgreen_talhoes.py
+python safrasmart.py
 ```
 
 Na primeira execução, o script pode pedir autenticação do Earth Engine.
@@ -64,10 +64,10 @@ Os arquivos são gravados em `out/`:
 
 ## Estrutura do projeto
 ```
-SmartGreen/
+SafraSmart/
 ├── CEM/                    # Shapefile dos talhões
 ├── out/                    # Saídas do pipeline
-├── smartgreen_talhoes.py   # Pipeline principal (NDVI paralelo)
+├── safrasmart.py   # Pipeline principal (NDVI paralelo)
 ├── analisar_resultados.py  # Gráficos e relatórios
 ├── gerar_html.py           # Geração isolada do HTML
 ├── verificar_shapefile.py  # Inspeção do shapefile
